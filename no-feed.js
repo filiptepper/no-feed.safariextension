@@ -5,5 +5,5 @@ setInterval(function() {
     '[id^=pagelet_home_stream]'
   ).children().remove();;
 
-  $('#rightCol').remove();
+  $('.ticker_stream, .ego_column').remove();
 }, 50);
